@@ -56,7 +56,6 @@ var check_booking_func = Promise.promisify( function(args, callback){
       }
     );
   });
-
 });
 
 module.exports = function(args){

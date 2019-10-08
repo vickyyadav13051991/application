@@ -129,7 +129,7 @@ describe('Bulk import of users', function(){
       .findElement(By.css('[data-vpp-user-row="'+id+'"]'))
       .then(el => {
         expect(el, 'Ensure that newly added user ID '+id+' exists on Users page')
-          .to.exists;
+          .to.exist;
         return Promise.resolve();
       })
     ))

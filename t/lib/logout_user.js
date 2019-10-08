@@ -54,7 +54,6 @@ var logout_user_func = Promise.promisify( function(args, callback){
         }
       );
     });
-
 });
 
 
